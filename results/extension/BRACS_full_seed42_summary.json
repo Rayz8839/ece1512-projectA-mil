@@ -1,0 +1,19 @@
+{
+  "dataset": "BRACS",
+  "seed": 42,
+  "variant": "full",
+  "best_epoch": 4,
+  "test": {
+    "auc": 0.7999983429908752,
+    "acc": 43.023255467414856,
+    "f1": 0.37051400542259216,
+    "loss": 1.3999504462577577
+  },
+  "train_time_s": 374.9842314720154,
+  "config": {
+    "use_cb": true,
+    "label_smooth": 0.1,
+    "patch_keep": 0.5,
+    "lam_ent": 0.1
+  }
+}
