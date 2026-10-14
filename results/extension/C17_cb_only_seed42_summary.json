@@ -1,0 +1,19 @@
+{
+  "dataset": "C17",
+  "seed": 42,
+  "variant": "cb_only",
+  "best_epoch": 7,
+  "test": {
+    "auc": 0.8232296705245972,
+    "acc": 79.99999523162842,
+    "f1": 0.46891534328460693,
+    "loss": 0.7075102796964348
+  },
+  "train_time_s": 279.4350152015686,
+  "config": {
+    "use_cb": true,
+    "label_smooth": 0.1,
+    "patch_keep": 1.0,
+    "lam_ent": 0.0
+  }
+}
