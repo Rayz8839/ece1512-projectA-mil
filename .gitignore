@@ -1,0 +1,9 @@
+# Feature files are several GB each and come from Zenodo / Hugging Face (see README)
+starter/feature/
+# Zip archives are ignored, except the two result archives kept for review
+*.zip
+!results/baseline_results.zip
+!results/extension_results.zip
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
